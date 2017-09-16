@@ -1,0 +1,29 @@
+Package: actulife
+Type: Package
+Title: Life insurence calculations classes and functions
+LazyData: true
+Version: 0.0.0.9000
+Date: 2017-08-26
+Author: Oskar Laverny <oskar.laverny@gmail.com>
+Maintainer: Oskar Laverny <oskar.laverny@gmail.com>
+Description: This package contains classes for life table and actuarial life tables, dicrete or continuous cases, and a lot of function to perform life insurence calculations with them : expectations and probabilities, but also Insurences, anuities (due or immediate), inter-ages assumptions (UDD, CFM), group at first death, group at last death, group at Kth death and any group using Schuett-Nesbitt, Reserving, etc.
+    A few usual life tables are provied as data (mainly french ones) to perform tests.
+License: GPL-3
+Imports: numDeriv,
+    gtools,
+    classGraph,
+    methods,
+    stats,
+    utils
+RoxygenNote: 6.0.1
+Collate: 
+    'Verbosity.R'
+    'Generics.R'
+    'TableMort.R'
+    'TableMortContinue.R'
+    'TableMortDiscrete.R'
+    'TableMortGroupePDI.R'
+    'TableMortGroupePDIContinue.R'
+    'TableMortGroupePDIDiscrete.R'
+    'Assure.R'
+    'Interests.R'
